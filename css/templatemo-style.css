@@ -214,11 +214,11 @@ p:last-child { margin-bottom: 0; }
 #carousel li { margin-right: 5px; }
 #carousel img {
     display: block;
-    opacity: 1;
+    opacity: 0.5;
     cursor: pointer;
 }
 #carousel .flex-active-slide img {
-    opacity: 0.5;
+    opacity: 1;
     cursor: default;
 }
 
