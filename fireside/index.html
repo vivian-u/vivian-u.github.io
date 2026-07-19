@@ -10,6 +10,14 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="../assets/css/main.css" />
+		<style>
+			#team .box .image img {
+				width: 100%;
+				aspect-ratio: 1 / 1;
+				object-fit: cover;
+				display: block;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -29,12 +37,12 @@
 			<article id="top" class="wrapper style1">
 				<div class="container">
 					<div class="row">
-						<div class="col-3 col-2-medium col-2-small">
+						<div class="col-2 col-2-medium col-2-small">
 							<span class="image featured"><img src="images/fireside_logo.jpg" alt="" /></span>
 						</div>
-						<div class="col-9 col-10-medium col-10-small">
+						<div class="col-10 col-10-medium col-10-small">
 							<header>
-								<h1 style="line-height: 1.2;">FIRESIDE: Far-InfraRed Extragalactic Survey and Instrument Design Exploration</h1>
+								<h1 style="line-height: 1.2;">Far-InfraRed Extragalactic Survey and Instrument Design Exploration (FIRESIDE)</h1>
 							</header>
 						</div>
 					</div>
@@ -194,15 +202,15 @@
 				</div>
 				
 				<div class="row">
-				<div class="col-12">
+				<div class="col-8 col-7-large col-6-medium col-12-small">
 				  <h3>The Empirical Approach</h3>
 				  <p> Complementing the simulations, we build a hybrid model for the infrared luminosity function (IRLF) that links proto-spheroid/AGN co-evolution (dominant at <em>z</em> &gt; 1.5) with a parametric late-type galaxy IRLF (dominant at <em>z</em> &lt; 1.5), calibrated against ALMA, <em>Herschel</em>, and SCUBA-2 survey data. Empirically-derived far-IR line-to-continuum relations&mdash;cross-checked with CLOUDY photoionization modeling&mdash;let us convert these bolometric luminosity functions into line luminosity functions for a wide suite of far-IR diagnostics, which in turn predict survey number counts as a function of instrument sensitivity, spectral resolution, and survey depth/area (Kader et al., in prep).	</p>
 				</div>
-				<!--div class="col-4 col-5-large col-6-medium col-12-small" style="display: flex; align-items: center; justify-content: center;">
+				<div class="col-4 col-5-large col-6-medium col-12-small" style="display: flex; align-items: center; justify-content: center;">
 				  <span class="image right" style="margin: 0; width: auto;">
 				  <img src="images/approach/bolometric_to_line_lf.png" alt="Bolometric to line luminosity function modeling" style="max-height: 180px; width: auto; object-fit: contain;" />
 				  </span>
-				</div-->
+				</div>
 				</div>
 
 				<div class="row">
@@ -235,32 +243,32 @@
 						<h2>Science Result Highlights</h2>
 					</header>
 					<div class="row">
-						<div class="col-6 col-6-medium col-12-small">
+						<div class="col-6 col-8-medium col-10-small" style="margin: 0 auto; float: none;">
 							<article class="box style1">
-								<a href="https://doi.org/10.3847/1538-4357/ae58a4" class="image featured">
-								    <img src="images/approach/miri_prima_bands.jpg" alt="" style="width:100%; height:auto; display:block;" />
-								</a>								
+								<a href="https://doi.org/10.3847/1538-4357/ae58a4" class="image featured"><img src="images/approach/miri_prima_bands.jpg" alt="" /></a>
 								<h3><a href="https://doi.org/10.3847/1538-4357/ae58a4">Modeling the JWST MIRI Counts, Insights into the Source Properties and Role of Dust-obscured AGNs</a></h3>
 								<p>We extended the pySIDES semi-empirical model to observed-frame 5&ndash;25&micro;m, adding stellar emission, a quiescent galaxy population, and AGN templates for a range of AGN fractions &mdash; then validated the resulting source counts against JWST/MIRI surveys (SMILES, JADES, CEERS) as a first step toward PRIMA-band predictions (Vidal et al. 2026).</p>
 							</article>
 						</div>
 					</div>
-					<br>
+					
 					<h2>Publication List</h2>
 					<ol reversed>
 						<li>Vidal, E.P., Sajina, A., Banks, A.R., B&eacute;thermin, M., Ferkinhoff, C., Petric, A., Pope, A., Lyu, J., U, V., Yung, L.Y.A., & Patil, P. 2026, <b>"Modeling the JWST MIRI Counts, Insights into the Source Properties and Role of Dust-obscured AGNs"</b>, ApJ, 1002, 23 (<a href="https://doi.org/10.3847/1538-4357/ae58a4">ADS</a>)</li>
 					</ol>
-					<p>Additional papers from the collaboration are in preparation and will be listed here upon acceptance. Stay tuned!</p>
+					<p>Additional papers from the collaboration are in preparation and will be listed here upon submission.</p>
 				</div>
 			</article>
 
 		<!-- Data -->
 			<article id="data" class="wrapper style1">
 				<div class="container">
-					<h3>Data and Tools</h3>
-					<p>Mock galaxy catalogs, sky simulations, and other data products from FIRESIDE are made available to the community. Our data are hosted on CANFAR:<br />
-					<a href="https://www.canfar.net/citation/landing?doi=26.0001">https://www.canfar.net/citation/landing?doi=26.0001</a></p>
-					<p>We also plan to host an interactive PRIMA survey visualization tool developed by Carl Ferkinhoff and Erik Pohl (Winona State University) here as a web application &mdash; check back for updates!</p>
+					<header>
+						<h3>Data</h3>
+						<p>Mock galaxy catalogs, sky simulations, and other data products from FIRESIDE are made available to the community. Our data are hosted on CANFAR:<br />
+						<a href="https://www.canfar.net/citation/landing?doi=26.0001">https://www.canfar.net/citation/landing?doi=26.0001</a></p>
+						<p>We also plan to host an interactive PRIMA survey visualization tool developed by Carl Ferkinhoff and Erik Pohl (Winona State University) here as a web application &mdash; check back for updates!</p>
+					</header>
 				</div>
 			</article>
 
@@ -271,10 +279,8 @@
 						<div class="col-12">
 							<header>
 								<h3>Contact Us</h3>
-								<p>Interested in joining our FIRESIDE chats, collaborating with us, or have questions about the project? Get in touch! <br> Reach us at <b> vivianu [at] ipac [dot] caltech [dot] edu</b>.</p>
-								<br>
+								<p>Interested in joining our FIRESIDE chats, collaborating with us, or have questions about the project? Get in touch! <br> Vivian U can be reached at <b> vivianu [at] ipac [dot] caltech [dot] edu</b>.</p>
 								<p><small>This work is supported by NASA ADSPS grant 80NSSC25K0169.</small></p>
-
 							</header>
 						</div>
 					</div>
